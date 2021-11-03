@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .left {
+  height: 670px;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  background-color: #FF5B84;
+}
+
+.container .left .title {
+  margin-top: 4em;
+  margin-left: 4em;
+  color: white;
+  font-size: 10px;
+  letter-spacing: 6px;
+  font-weight: 600;
+}
+
+.container .left .name {
+  margin-top: 2.5sem;
+  margin-left: 2em;
+  color: white;
+  font-size: 50px;
+  line-height: 1.8em;
+  word-wrap: break-word;
+  width: 500px;
+}
+
+.container .left .name h1 {
+  margin-bottom: 0;
+}
+
+.container .left .aboutme {
+  font-size: 13px;
+  padding-left: 8em;
+  color: #e2dfdf;
+  width: 400px;
+  word-wrap: break-word;
+  line-height: 1.6em;
+}
+
+.container .left .description {
+  margin-left: 5.2em;
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  font-weight: 600;
+  width: 400px;
+  word-wrap: break-word;
+}
+
+.container .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #FF2E63;
+  position: relative;
+}
+
+.container .right .links {
+  position: absolute;
+  right: 4em;
+  z-index: 99999;
+}
+
+.container .right .links ul {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.container .right .links ul li {
+  margin-right: 3em;
+  list-style-type: none;
+}
+
+.container .right .links ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container .right .links ul li a:hover {
+  color: #d4d4d4;
+}
+
+.container .right .man {
+  position: absolute;
+  bottom: 0em;
+  left: -15em;
+  width: 130%;
+}
+
+.social-media {
+  margin: 0;
+  padding: 0;
+  background-color: #292736;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social-media ul {
+  margin: 0;
+  margin-left: 8em;
+  padding: 1em 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social-media ul img {
+  height: 30px;
+  width: auto;
+}
+
+.social-media ul li {
+  margin-right: 10em;
+  list-style-type: none;
+}
+/*# sourceMappingURL=main.css.map */
